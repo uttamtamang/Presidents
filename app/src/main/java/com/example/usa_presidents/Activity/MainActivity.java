@@ -1,12 +1,14 @@
-package com.example.usa_presidents;
+package com.example.usa_presidents.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.Toolbar;
+
+import com.example.usa_presidents.Model.Presidents;
+import com.example.usa_presidents.Adapter.PresidentsAdapter;
+import com.example.usa_presidents.R;
 
 import java.util.ArrayList;
 import java.util.List;

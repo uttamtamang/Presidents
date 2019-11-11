@@ -1,4 +1,4 @@
-package com.example.usa_presidents;
+package com.example.usa_presidents.Activity;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.usa_presidents.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -18,7 +20,7 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
 
         //getSupportActionBar().setTitle('');
 

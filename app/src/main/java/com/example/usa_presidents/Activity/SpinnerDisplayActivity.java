@@ -1,10 +1,12 @@
-package com.example.usa_presidents;
+package com.example.usa_presidents.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.usa_presidents.R;
 
 public class SpinnerDisplayActivity extends AppCompatActivity {
 

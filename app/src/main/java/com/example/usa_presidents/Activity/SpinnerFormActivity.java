@@ -1,4 +1,4 @@
-package com.example.usa_presidents;
+package com.example.usa_presidents.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.usa_presidents.R;
 
 public class SpinnerFormActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -35,6 +37,23 @@ public class SpinnerFormActivity extends AppCompatActivity implements AdapterVie
         Submit.setOnClickListener( new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+
+                //Validation
+                if(etName.getText().toString().matches("")){
+                    etName.setError("Enter Name please");
+                    return;
+                }
+                if(etPhone.getText().toString().matches("")){
+                    etPhone.setError("Enter Phone Number please");
+                    return;
+                }
+                if(etEmail.getText().toString().matches("")){
+                    etEmail.setError("Enter Name please");
+                    return;
+                }
+
+
+
                 String name, phone, email, address;
                 name = etName.getText().toString();
                 phone = etPhone.getText().toString();

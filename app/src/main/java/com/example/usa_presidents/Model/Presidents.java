@@ -1,4 +1,4 @@
-package com.example.usa_presidents;
+package com.example.usa_presidents.Model;
 
 public class Presidents {
 

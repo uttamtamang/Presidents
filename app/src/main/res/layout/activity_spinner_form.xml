@@ -6,16 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".SpinnerFormActivity"
     android:orientation="vertical"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/personal"
         android:textSize="40dp"
-        android:layout_marginBottom="75dp"
+        android:layout_marginBottom="20dp"
         android:textColor="@color/blue"
         android:layout_gravity="center"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/interview"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
-        android:background="@color/blue"
+
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +64,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnSubmit"
         android:layout_marginTop="10dp"
-        android:text="SUBMIT"/>
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@color/blue"/>
 
 
 

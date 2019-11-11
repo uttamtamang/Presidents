@@ -13,15 +13,25 @@
         android:layout_height="wrap_content"
         android:text="President of USA"
         android:id="@+id/btnPresidents"
-        android:layout_marginTop="25dp">
+        android:padding="25dp"
+        android:background="#283747"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#E5E7E9 ">
 
     </Button>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Form"
+        android:text="SPINNER FORM"
         android:id="@+id/btnForm"
-        android:layout_marginTop="25dp">
+        android:padding="25dp"
+        android:background="@color/blue"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#EB984E">
 
     </Button>
 

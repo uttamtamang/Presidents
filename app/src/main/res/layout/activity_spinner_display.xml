@@ -17,8 +17,17 @@
         android:background="@color/blue"
         android:gravity="center"
         android:padding="10dp"
+        android:layout_marginBottom="20dp"
         android:textColor="#34495E"
        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/interview"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
